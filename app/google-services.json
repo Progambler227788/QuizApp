@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "153446912300",
+    "project_id": "cricquiz-5a1ec",
+    "storage_bucket": "cricquiz-5a1ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153446912300:android:67f581bcf1b74d8caadc89",
+        "android_client_info": {
+          "package_name": "com.example.cricquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153446912300-gblt3db662389mkifflkquf9uavf392i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACSfxNlInwcbmCvzsDnxDSmWcnAlD5Phc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153446912300-gblt3db662389mkifflkquf9uavf392i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

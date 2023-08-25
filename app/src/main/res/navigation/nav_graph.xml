@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cricketPlayers">
+
+    <fragment
+        android:id="@+id/cricketPlayers"
+        android:name="com.example.cricquiz.CricketPlayers"
+        android:label="fragment_cricket_players"
+        tools:layout="@layout/fragment_cricket_players" >
+        <action
+            android:id="@+id/action_cricketPlayers_to_footBallPlayers"
+            app:destination="@id/footBallPlayers" />
+    </fragment>
+    <fragment
+        android:id="@+id/footBallPlayers"
+        android:name="com.example.cricquiz.FootBallPlayers"
+        android:label="fragment_foot_ball_players"
+        tools:layout="@layout/fragment_foot_ball_players" />
+</navigation>
